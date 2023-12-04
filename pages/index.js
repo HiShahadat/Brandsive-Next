@@ -18,16 +18,11 @@ const Home = (props) => {
             <span className="home-logo">BRANDSIVE</span>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
-                <span>Home</span>
-                <span className="home-nav2">Contact Us</span>
+                <span className="home-nav4">Portfolio</span>
                 <span className="home-nav3">Pricing</span>
-                <span className="home-nav4">Team</span>
-                <span className="home-nav5">Blog</span>
+                <span className="home-nav2">Contact Us</span>
               </nav>
-              <div className="home-buttons">
-                <button className="home-login button">Login</button>
-                <button className="home-register button">Register</button>
-              </div>
+              <button className="home-register button">Register</button>
             </div>
             <div data-thq="thq-burger-menu" className="home-burger-menu">
               <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -45,14 +40,14 @@ const Home = (props) => {
                   </div>
                 </div>
                 <nav className="home-links1">
-                  <span className="home-nav11">Home</span>
+                  <span className="home-nav1">Home</span>
                   <span className="home-nav21">Contact Us</span>
                   <span className="home-nav31">Pricing</span>
                   <span className="home-nav41">Team</span>
-                  <span className="home-nav51">Blog</span>
+                  <span className="home-nav5">Blog</span>
                 </nav>
-                <div className="home-buttons1">
-                  <button className="home-login1 button">Login</button>
+                <div className="home-buttons">
+                  <button className="home-login button">Login</button>
                   <button className="home-register1 button">Register</button>
                 </div>
               </div>
@@ -473,18 +468,16 @@ const Home = (props) => {
           <footer className="home-footer1">
             <div className="home-container31">
               <span className="home-logo2">BRANDSIVE</span>
-              <nav className="home-nav1 home-nav1">
-                <span className="home-nav12">Home</span>
-                <span className="home-nav22">Contact Us</span>
+              <nav className="home-links2">
+                <span className="home-nav42">Portfolio</span>
                 <span className="home-nav32">Pricing</span>
-                <span className="home-nav42">Team</span>
-                <span className="home-nav52">Blog</span>
+                <span className="home-nav22">Contact Us</span>
               </nav>
             </div>
             <div className="home-separator"></div>
             <div className="home-container32">
               <span className="home-text58">
-                © 2023 myCompany, All Rights Reserved.
+                ©2023 - 2024 Brandsive, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
                 <svg
@@ -530,7 +523,7 @@ const Home = (props) => {
             background-color: var(--dl-color-primary1-blue80);
           }
           .home-navbar-interactive {
-            width: 90%;
+            width: 100%;
             display: flex;
             position: sticky;
             max-width: var(--dl-size-size-maxwidth);
@@ -561,17 +554,11 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-nav1 {
-            transition: 0.3s;
-          }
-          .home-nav1:hover {
-            color: #3d6e70ff;
-          }
-          .home-nav2 {
+          .home-nav4 {
             transition: 0.3s;
             margin-left: var(--dl-space-space-twounits);
           }
-          .home-nav2:hover {
+          .home-nav4:hover {
             color: #3d6e70ff;
           }
           .home-nav3 {
@@ -581,33 +568,12 @@ const Home = (props) => {
           .home-nav3:hover {
             color: #3d6e70ff;
           }
-          .home-nav4 {
+          .home-nav2 {
             transition: 0.3s;
             margin-left: var(--dl-space-space-twounits);
           }
-          .home-nav4:hover {
+          .home-nav2:hover {
             color: #3d6e70ff;
-          }
-          .home-nav5 {
-            transition: 0.3s;
-            margin-left: var(--dl-space-space-twounits);
-          }
-          .home-nav5:hover {
-            color: #3d6e70ff;
-          }
-          .home-buttons {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-login {
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            margin-right: var(--dl-space-space-twounits);
-            padding-left: 1.5rem;
-            border-radius: 45px;
-            padding-right: 1.5rem;
           }
           .home-register {
             color: var(--dl-color-gray-white);
@@ -681,7 +647,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-nav11 {
+          .home-nav1 {
             color: var(--dl-color-gray-black);
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -697,18 +663,18 @@ const Home = (props) => {
             color: var(--dl-color-gray-black);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-nav51 {
+          .home-nav5 {
             color: var(--dl-color-gray-black);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-buttons1 {
+          .home-buttons {
             display: flex;
             margin-top: var(--dl-space-space-unit);
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-login1 {
+          .home-login {
             border-color: var(--dl-color-primary1-blue100);
             border-width: 1px;
             margin-right: var(--dl-space-space-twounits);
@@ -829,8 +795,6 @@ const Home = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             padding-top: var(--dl-space-space-fourunits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: flex-start;
@@ -916,12 +880,11 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-pricing-card {
-            gap: var(--dl-space-space-twounits);
             width: 100%;
-            height: auto;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             max-width: 450px;
+            align-self: stretch;
             min-height: 450px;
             align-items: flex-start;
             padding-top: var(--dl-space-space-twounits);
@@ -930,7 +893,6 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-twounits);
-            justify-content: space-between;
             background-color: var(--dl-color-primary1-blue60);
           }
           .home-container06 {
@@ -1055,6 +1017,7 @@ const Home = (props) => {
             display: flex;
             padding: var(--dl-space-space-twounits);
             max-width: 450px;
+            align-self: stretch;
             min-height: 450px;
             align-items: flex-start;
             border-radius: var(--dl-radius-radius-radius8);
@@ -1206,6 +1169,7 @@ const Home = (props) => {
             display: flex;
             padding: var(--dl-space-space-threeunits);
             max-width: 450px;
+            align-self: stretch;
             min-height: 450px;
             align-items: flex-start;
             padding-top: var(--dl-space-space-twounits);
@@ -1518,32 +1482,36 @@ const Home = (props) => {
             font-size: 2em;
             font-weight: bold;
           }
-          .home-nav1 {
-            flex: 0 0 auto;
+          .home-links2 {
+            flex: 1;
             display: flex;
-            margin-top: 0px;
             align-items: center;
             flex-direction: row;
-          }
-          .home-nav12 {
-            color: var(--dl-color-secondary-gray500);
-            margin-left: 0px;
-          }
-          .home-nav22 {
-            color: var(--dl-color-secondary-gray500);
-            margin-left: var(--dl-space-space-unit);
-          }
-          .home-nav32 {
-            color: var(--dl-color-secondary-gray500);
-            margin-left: var(--dl-space-space-unit);
+            justify-content: center;
           }
           .home-nav42 {
-            color: var(--dl-color-secondary-gray500);
-            margin-left: var(--dl-space-space-unit);
+            color: var(--dl-color-gray-white);
+            transition: 0.3s;
+            margin-left: var(--dl-space-space-twounits);
           }
-          .home-nav52 {
-            color: var(--dl-color-secondary-gray500);
-            margin-left: var(--dl-space-space-unit);
+          .home-nav42:hover {
+            color: #3d6e70ff;
+          }
+          .home-nav32 {
+            color: var(--dl-color-gray-white);
+            transition: 0.3s;
+            margin-left: var(--dl-space-space-twounits);
+          }
+          .home-nav32:hover {
+            color: #3d6e70ff;
+          }
+          .home-nav22 {
+            color: var(--dl-color-gray-white);
+            transition: 0.3s;
+            margin-left: var(--dl-space-space-twounits);
+          }
+          .home-nav22:hover {
+            color: #3d6e70ff;
           }
           .home-separator {
             flex: 0 0 auto;
@@ -1676,7 +1644,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-nav11 {
+            .home-nav1 {
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-nav21 {
@@ -1691,7 +1659,7 @@ const Home = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .home-nav51 {
+            .home-nav5 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }

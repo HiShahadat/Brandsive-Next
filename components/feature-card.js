@@ -25,7 +25,7 @@ const FeatureCard = (props) => {
             border-radius: var(--dl-radius-radius-radius8);
             flex-direction: row;
             justify-content: flex-start;
-            background-color: var(--dl-color-gray-white);
+            background-color: var(--dl-color-ui-0);
           }
           .feature-card-icon {
             fill: var(--dl-color-primary1-blue80);
@@ -47,7 +47,7 @@ const FeatureCard = (props) => {
             line-height: 28px;
           }
           .feature-card-text1 {
-            color: var(--dl-color-gray-800);
+            color: var(--dl-color-ui-800);
             line-height: 1.6;
           }
           @media (max-width: 767px) {

@@ -26,7 +26,7 @@ const Question = (props) => {
             line-height: 1.6;
           }
           .question-text1 {
-            color: var(--dl-color-gray-800);
+            color: var(--dl-color-ui-800);
             line-height: 1.6;
           }
         `}

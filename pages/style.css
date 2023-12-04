@@ -1,15 +1,16 @@
 :root {
-  --dl-color-gray-500: #595959;
-  --dl-color-gray-700: #999999;
-  --dl-color-gray-800: #595959;
-  --dl-color-gray-900: #D9D9D9;
+  --dl-color-ui-0: #FFFFFF;
+  --dl-color-ui-100: #efe7edff;
+  --dl-color-ui-500: #595959;
+  --dl-color-ui-700: #999999;
+  --dl-color-ui-800: #595959;
+  --dl-color-ui-900: #D9D9D9;
+  --dl-color-ui-1000: #2b1d28ff;
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
   --dl-color-danger-300: #A22020;
   --dl-color-danger-500: #BF2626;
   --dl-color-danger-700: #E14747;
-  --dl-color-gray-black: #000000;
-  --dl-color-gray-white: #FFFFFF;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
@@ -41,31 +42,29 @@
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-ui-1000);
   display: inline-block;
   padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-ui-0);
 }
 .input {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-ui-1000);
   cursor: auto;
   padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
+  border-color: var(--dl-color-ui-1000);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-ui-0);
 }
 .textarea {
-  color: var(--dl-color-gray-black);
+  color: var(--dl-color-ui-1000);
   cursor: auto;
   padding: 0.5rem;
-  border-color: var(--dl-color-gray-black);
+  border-color: var(--dl-color-ui-1000);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-ui-0);
 }
 .list {
   width: 100%;
@@ -102,18 +101,20 @@
   font-size: 1.2rem;
 }
 .Content {
-  font-size: 18px;
+  font-size: 19px;
   font-family: Inter;
   font-weight: 400;
-  line-height: 1.75;
+  line-height: 34px;
+  letter-spacing: -0.25px;
   text-transform: none;
   text-decoration: none;
 }
-.Heading {
-  font-size: 32px;
+.H1 {
+  font-size: 72px;
   font-family: Inter;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1;
+  letter-spacing: -3px;
   text-transform: none;
   text-decoration: none;
 }

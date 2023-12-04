@@ -119,10 +119,10 @@ const Home = (props) => {
           <div className="home-features-container">
             <div className="home-features1">
               <div className="home-container03">
-                <span className="home-text sectionTitle P2B">
+                <p className="home-text sectionTitle P2B">
                   <span>features</span>
                   <br></br>
-                </span>
+                </p>
                 <h2 className="home-features-heading H2">
                   Unlock the Power of Brandsive
                 </h2>
@@ -157,7 +157,7 @@ const Home = (props) => {
             <h1 className="home-gallery-heading heading2 H2">
               Our Logo Designs
             </h1>
-            <span className="home-gallery-sub-heading">
+            <span className="home-gallery-sub-heading Content">
               Take a look at some of our stunning logo designs
             </span>
             <div className="home-container05">
@@ -230,108 +230,134 @@ const Home = (props) => {
             <div className="home-container07">
               <div className="home-pricing-card">
                 <span className="home-text06 H2">Starter</span>
-                <span className="H4">$295+</span>
+                <span className="H4">$295</span>
                 <div className="home-container08">
                   <div className="home-container09">
                     <span className="home-text07">✔</span>
-                    <span className="home-free-plan-features">
-                      Access to our logo design tool
+                    <span className="home-free-plan-features Content">
+                      Get your logo
                     </span>
                   </div>
                   <div className="home-container10">
                     <span className="home-text08">✔</span>
-                    <span className="home-free-plan-features1">
-                      Choose from a library of fonts and icons
+                    <span className="home-free-plan-features01 Content">
+                      7-day delivery
                     </span>
                   </div>
                   <div className="home-container11">
                     <span className="home-text09">✔</span>
-                    <span className="home-free-plan-features2">
-                      Customize colors and layouts
+                    <span className="home-free-plan-features02">
+                      All logo files (vector &amp; raster)
                     </span>
                   </div>
                   <div className="home-container12">
                     <span className="home-text10">✔</span>
-                    <span className="home-free-plan-features3">
-                      Download high-resolution logo files
+                    <span className="home-free-plan-features03 Content">
+                      Unlimited revisions
                     </span>
                   </div>
                 </div>
-                <button className="home-button button">Continue</button>
+                <button className="home-button button">
+                  Start With Your Logo
+                </button>
               </div>
               <div className="home-pricing-card1">
                 <span className="home-text11 H2">Pro</span>
-                <span className="H4">$495+</span>
+                <span className="H4">$495</span>
                 <div className="home-container13">
                   <div className="home-container14">
                     <span className="home-text12">✔</span>
-                    <span className="home-text13">
-                      All features of FREE plan
+                    <span className="home-free-plan-features04">
+                      <span className="Content">
+                        Get your
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="P2B">responsive</span>
+                      <span className="Content"> logo</span>
                     </span>
                   </div>
                   <div className="home-container15">
-                    <span className="home-text14">✔</span>
-                    <span className="home-basic-plan-features">
-                      All features of the Free plan
+                    <span className="home-text16">✔</span>
+                    <span className="home-free-plan-features05 Content">
+                      3-day super fast delivery
                     </span>
                   </div>
                   <div className="home-container16">
-                    <span className="home-text15">✔</span>
-                    <span className="home-basic-plan-features1">
-                      Additional font and icon options
+                    <span className="home-text17">✔</span>
+                    <span className="home-free-plan-features06">
+                      All logo files (vector &amp; raster)
                     </span>
                   </div>
                   <div className="home-container17">
-                    <span className="home-text16">✔</span>
-                    <span className="home-basic-plan-features2">
-                      Advanced color customization
-                    </span>
-                  </div>
-                  <div className="home-container18">
-                    <span className="home-text17">✔</span>
-                    <span className="home-basic-plan-features3">
-                      Priority email support
+                    <span className="home-text18">✔</span>
+                    <span className="home-free-plan-features07 Content">
+                      Unlimited revisions
                     </span>
                   </div>
                 </div>
                 <button className="home-button1 button">
-                  Try the Basic plan
+                  Get Your Logo Fast
                 </button>
               </div>
               <div className="home-pricing-card2">
-                <span className="home-text18 H2">
+                <span className="home-text19 H2">
                   <span>Custom</span>
                   <br></br>
                 </span>
-                <span className="H4">$1995+</span>
-                <div className="home-container19">
+                <span className="H4">Starts from $1995</span>
+                <div className="home-container18">
+                  <div className="home-container19">
+                    <span className="home-text22">✔</span>
+                    <span className="home-free-plan-features08">
+                      <span className="Content">
+                        Get your
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="P2B">responsive</span>
+                      <span className="Content"> logo</span>
+                    </span>
+                  </div>
                   <div className="home-container20">
-                    <span className="home-text21">✔</span>
-                    <span className="home-text22">
-                       All features of BASIC plan
+                    <span className="home-text26">✔</span>
+                    <span className="home-free-plan-features09 Content">
+                      Branding design
                     </span>
                   </div>
                   <div className="home-container21">
-                    <span className="home-text23">✔</span>
-                    <span className="home-pro-plan-features">
-                      All features of the Basic plan
+                    <span className="home-text27">✔</span>
+                    <span className="home-free-plan-features10 Content">
+                      Website/mobile UI design
                     </span>
                   </div>
                   <div className="home-container22">
-                    <span className="home-text24">✔</span>
-                    <span className="home-pro-plan-features1">
-                      Exclusive access to premium fonts and icons
+                    <span className="home-text28">✔</span>
+                    <span className="home-free-plan-features11 Content">
+                      Prioritized design delivery
                     </span>
                   </div>
                   <div className="home-container23">
-                    <span className="home-text25">✔</span>
-                    <span className="home-pro-plan-features2">
-                      Advanced layout customization
+                    <span className="home-text29">✔</span>
+                    <span className="home-free-plan-features12">
+                      All files and assets
+                    </span>
+                  </div>
+                  <div className="home-container24">
+                    <span className="home-text30">✔</span>
+                    <span className="home-free-plan-features13 Content">
+                      Unlimited revisions
                     </span>
                   </div>
                 </div>
                 <button className="home-button2 button">
-                  Try the PRO plan
+                  Get Your Full Brand
                 </button>
               </div>
             </div>
@@ -356,13 +382,13 @@ const Home = (props) => {
         <div className="home-faq">
           <div className="home-faq-container">
             <div className="home-faq1">
-              <div className="home-container24">
-                <span className="home-text26 sectionTitle">
+              <div className="home-container25">
+                <span className="home-text31 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
                 </span>
-                <h2 className="home-text29 heading2 H2">Common questions</h2>
-                <span className="home-text30 Content">
+                <h2 className="home-text34 heading2 H2">Common questions</h2>
+                <span className="home-text35 Content">
                   <span>
                     Here are some of the most common questions that we get.
                   </span>
@@ -437,9 +463,9 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="home-container25">
+              <div className="home-container26">
                 <Question
-                  Answer="The time it takes to create a logo depends on the complexity of the design and the number of revisions required. Typically, our logo design process takes around 2-3 weeks."
+                  Answer="The time it takes to create a logo depends on the complexity of the design and the number of revisions required. Typically, our logo design process takes around 3-7 days.."
                   Question="How long does it take to create a logo?"
                 ></Question>
                 <Question
@@ -464,7 +490,7 @@ const Home = (props) => {
         </div>
         <div className="home-footer">
           <footer className="home-footer1">
-            <div className="home-container26">
+            <div className="home-container27">
               <span className="home-logo1">BRANDSIVE</span>
               <nav className="home-links2">
                 <span className="home-nav42">Portfolio</span>
@@ -473,8 +499,8 @@ const Home = (props) => {
               </nav>
             </div>
             <div className="home-separator"></div>
-            <div className="home-container27">
-              <span className="home-text47">
+            <div className="home-container28">
+              <span className="home-text52">
                 ©2023 - 2024 Brandsive, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
@@ -787,6 +813,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .home-features-sub-heading {
+            color: var(--dl-color-ui-600);
             text-align: center;
           }
           .home-container04 {
@@ -819,8 +846,8 @@ const Home = (props) => {
             text-align: center;
           }
           .home-gallery-sub-heading {
+            color: var(--dl-color-ui-600);
             text-align: center;
-            line-height: 1.6;
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
           }
@@ -873,7 +900,7 @@ const Home = (props) => {
             line-height: 1.6;
           }
           .home-container07 {
-            gap: var(--dl-space-space-twounits);
+            gap: var(--dl-space-space-threeunits);
             width: 100%;
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -907,7 +934,7 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-container09 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -916,13 +943,14 @@ const Home = (props) => {
             flex-direction: row;
           }
           .home-text07 {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-500);
           }
           .home-free-plan-features {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
           .home-container10 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -931,14 +959,14 @@ const Home = (props) => {
             flex-direction: row;
           }
           .home-text08 {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-500);
           }
-          .home-free-plan-features1 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features01 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
           .home-container11 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -947,14 +975,14 @@ const Home = (props) => {
             flex-direction: row;
           }
           .home-text09 {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-500);
           }
-          .home-free-plan-features2 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features02 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
           .home-container12 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -963,27 +991,23 @@ const Home = (props) => {
             flex-direction: row;
           }
           .home-text10 {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-500);
           }
-          .home-free-plan-features3 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features03 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
           .home-button {
-            color: var(--dl-color-gray-black);
             width: 100%;
             margin-top: auto;
             transition: 0.3s;
             font-weight: 700;
             padding-top: 1rem;
-            border-color: var(--dl-color-primary1-blue100);
-            border-radius: 45px;
             padding-bottom: 1rem;
-            background-color: transparent;
           }
           .home-button:hover {
             border-color: rgba(41, 20, 119, 0.9);
-            background-color: rgba(217, 217, 217, 0.1);
+            background-color: rgba(41, 20, 119, 0.9);
           }
           .home-pricing-card1 {
             gap: var(--dl-space-space-twounits);
@@ -1008,11 +1032,11 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             align-items: flex-start;
-            margin-bottom: var(--dl-space-space-threeunits);
+            margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
           .home-container14 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1021,45 +1045,20 @@ const Home = (props) => {
             flex-direction: row;
           }
           .home-text12 {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-500);
           }
-          .home-text13 {
-            color: var(--dl-color-ui-800);
+          .home-free-plan-features04 {
+            color: var(--dl-color-ui-1000);
+            font-size: 19px;
+            text-align: left;
+            font-family: 'Inter';
+            line-height: 34px;
+            letter-spacing: -0.25px;
+            text-transform: none;
+            text-decoration: none;
           }
           .home-container15 {
-            gap: 4px;
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
-            flex-direction: row;
-          }
-          .home-text14 {
-            color: var(--dl-color-ui-800);
-          }
-          .home-basic-plan-features {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
-          }
-          .home-container16 {
-            gap: 4px;
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
-            flex-direction: row;
-          }
-          .home-text15 {
-            color: var(--dl-color-ui-800);
-          }
-          .home-basic-plan-features1 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
-          }
-          .home-container17 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1068,14 +1067,14 @@ const Home = (props) => {
             flex-direction: row;
           }
           .home-text16 {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-500);
           }
-          .home-basic-plan-features2 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features05 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
-          .home-container18 {
-            gap: 4px;
+          .home-container16 {
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1084,11 +1083,27 @@ const Home = (props) => {
             flex-direction: row;
           }
           .home-text17 {
-            color: var(--dl-color-ui-800);
+            color: var(--dl-color-ui-500);
           }
-          .home-basic-plan-features3 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features06 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
+          }
+          .home-container17 {
+            gap: var(--dl-space-space-halfunit);
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-unit);
+            flex-direction: row;
+          }
+          .home-text18 {
+            color: var(--dl-color-ui-500);
+          }
+          .home-free-plan-features07 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
           .home-button1 {
             width: 100%;
@@ -1119,33 +1134,62 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-ui-0);
           }
-          .home-text18 {
+          .home-text19 {
             text-align: center;
           }
-          .home-container19 {
+          .home-container18 {
             width: 100%;
             display: flex;
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-container20 {
+          .home-container19 {
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
-          }
-          .home-text21 {
-            color: var(--dl-color-ui-800);
           }
           .home-text22 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+            color: var(--dl-color-ui-500);
+          }
+          .home-free-plan-features08 {
+            color: var(--dl-color-ui-1000);
+            font-size: 19px;
+            text-align: left;
+            font-family: 'Inter';
+            line-height: 34px;
+            letter-spacing: -0.25px;
+            text-transform: none;
+            text-decoration: none;
+          }
+          .home-container20 {
+            gap: var(--dl-space-space-halfunit);
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-unit);
+            flex-direction: row;
+          }
+          .home-text26 {
+            color: var(--dl-color-ui-500);
+          }
+          .home-free-plan-features09 {
+            color: var(--dl-color-ui-1000);
+            font-size: 19px;
+            text-align: left;
+            font-family: 'Inter';
+            line-height: 34px;
+            letter-spacing: -0.25px;
+            text-transform: none;
+            text-decoration: none;
           }
           .home-container21 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1153,15 +1197,21 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text23 {
-            color: var(--dl-color-ui-800);
+          .home-text27 {
+            color: var(--dl-color-ui-500);
           }
-          .home-pro-plan-features {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features10 {
+            color: var(--dl-color-ui-1000);
+            font-size: 19px;
+            text-align: left;
+            font-family: 'Inter';
+            line-height: 34px;
+            letter-spacing: -0.25px;
+            text-transform: none;
+            text-decoration: none;
           }
           .home-container22 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1169,15 +1219,15 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text24 {
-            color: var(--dl-color-ui-800);
+          .home-text28 {
+            color: var(--dl-color-ui-500);
           }
-          .home-pro-plan-features1 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features11 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
           .home-container23 {
-            gap: 4px;
+            gap: var(--dl-space-space-halfunit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1185,12 +1235,28 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: row;
           }
-          .home-text25 {
-            color: var(--dl-color-ui-800);
+          .home-text29 {
+            color: var(--dl-color-ui-500);
           }
-          .home-pro-plan-features2 {
-            color: var(--dl-color-ui-800);
-            line-height: 1.6;
+          .home-free-plan-features12 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
+          }
+          .home-container24 {
+            gap: var(--dl-space-space-halfunit);
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-unit);
+            flex-direction: row;
+          }
+          .home-text30 {
+            color: var(--dl-color-ui-500);
+          }
+          .home-free-plan-features13 {
+            color: var(--dl-color-ui-1000);
+            text-align: left;
           }
           .home-button2 {
             width: 100%;
@@ -1278,26 +1344,26 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-sixunits);
           }
-          .home-container24 {
+          .home-container25 {
             display: flex;
             max-width: 35%;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text26 {
+          .home-text31 {
             color: var(--dl-color-primary1-blue80);
             font-family: 'Raleway';
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text29 {
+          .home-text34 {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text30 {
+          .home-text35 {
             color: var(--dl-color-ui-800);
             text-align: left;
           }
-          .home-container25 {
+          .home-container26 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 650px;
             display: flex;
@@ -1325,7 +1391,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: space-between;
           }
-          .home-container26 {
+          .home-container27 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -1387,7 +1453,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container27 {
+          .home-container28 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1395,7 +1461,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text47 {
+          .home-text52 {
             color: var(--dl-color-secondary-500);
           }
           .home-icon-group1 {
@@ -1475,7 +1541,7 @@ const Home = (props) => {
             .home-banner-sub-heading {
               max-width: 100%;
             }
-            .home-text30 {
+            .home-text35 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
@@ -1592,13 +1658,13 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-container24 {
+            .home-container25 {
               max-width: 100%;
               align-self: center;
               align-items: center;
               justify-content: center;
             }
-            .home-text30 {
+            .home-text35 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -1612,12 +1678,12 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container27 {
+            .home-container28 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text47 {
+            .home-text52 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -1671,12 +1737,12 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container27 {
+            .home-container28 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text47 {
+            .home-text52 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }

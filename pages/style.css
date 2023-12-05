@@ -45,16 +45,19 @@
 }
 .button {
   color: var(--dl-color-ui-0);
+  cursor: pointer;
   display: inline-block;
   padding: .75rem 2rem;
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-primary-600);
 }
 .button:hover {
+  transition: 300ms;
   background-color: var(--dl-color-primary-700);
 }
 .button-secondary {
   color: var(--dl-color-ui-1000);
+  cursor: pointer;
   display: inline-block;
   padding: .75rem 2rem;
   border-radius: var(--dl-radius-radius-radius8);
@@ -65,6 +68,7 @@
 }
 .button-tertiary {
   color: var(--dl-color-ui-1000);
+  cursor: pointer;
   display: inline-block;
   padding: .75rem 2rem;
   border-color: var(--dl-color-ui-1000);
@@ -119,6 +123,7 @@
   font-size: 1.8rem;
 }
 .sectionTitle {
+  color: var(--dl-color-primary-600);
   font-size: .75rem;
   font-weight: 700;
   letter-spacing: 1.2;

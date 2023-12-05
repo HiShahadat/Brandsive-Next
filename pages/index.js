@@ -67,8 +67,8 @@ const Home = (props) => {
                   <span className="home-nav5">Blog</span>
                 </nav>
                 <div className="home-buttons">
-                  <button className="home-login button">Login</button>
-                  <button className="home-register button">Register</button>
+                  <button className="home-login P2B button">Login</button>
+                  <button className="home-register P2B button">Register</button>
                 </div>
               </div>
               <div>
@@ -107,7 +107,7 @@ const Home = (props) => {
                 </span>
                 <a
                   href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
-                  className="home-hero-button1 button P2B"
+                  className="home-hero-button1 P2B button"
                 >
                   Contact Us
                 </a>
@@ -265,7 +265,7 @@ const Home = (props) => {
                     </span>
                   </div>
                 </div>
-                <button className="home-button button-tertiary">
+                <button className="home-button P2B button-tertiary">
                   Start With Your Logo
                 </button>
               </div>
@@ -315,7 +315,7 @@ const Home = (props) => {
                     </span>
                   </div>
                 </div>
-                <button className="home-button1 button">
+                <button className="home-button1 P2B button">
                   Get Your Logo Fast
                 </button>
               </div>
@@ -384,7 +384,7 @@ const Home = (props) => {
                     </span>
                   </div>
                 </div>
-                <button className="home-button2 button-tertiary">
+                <button className="home-button2 P2B button-tertiary">
                   Get Your Full Brand
                 </button>
               </div>
@@ -401,7 +401,7 @@ const Home = (props) => {
             </span>
             <a
               href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
-              className="home-hero-button11 button-secondary"
+              className="P2B button-secondary"
             >
               Contact Us
             </a>
@@ -645,8 +645,6 @@ const Home = (props) => {
           }
           .home-contact {
             border-color: var(--dl-color-primary1-blue100);
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
           }
           .home-burger-menu {
             display: none;
@@ -852,7 +850,6 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-text {
-            color: var(--dl-color-primary-600);
             text-align: center;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -933,7 +930,6 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-text03 {
-            color: var(--dl-color-primary1-blue80);
             font-family: 'Raleway';
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -1052,7 +1048,6 @@ const Home = (props) => {
           }
           .home-button {
             width: 100%;
-            font-weight: 700;
             border-color: var(--dl-color-ui-1000);
             border-width: 1px;
             background-color: transparent;
@@ -1161,7 +1156,6 @@ const Home = (props) => {
           }
           .home-button1 {
             width: 100%;
-            font-weight: 700;
           }
           .home-pricing-card2 {
             gap: var(--dl-space-space-twounits);
@@ -1312,7 +1306,6 @@ const Home = (props) => {
           }
           .home-button2 {
             width: 100%;
-            font-weight: 700;
           }
           .home-banner {
             flex: 0 0 auto;
@@ -1344,11 +1337,6 @@ const Home = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             text-align: center;
             line-height: 1.6;
-          }
-          .home-hero-button11 {
-            font-size: 18px;
-            font-weight: bold;
-            text-decoration: none;
           }
           .home-faq {
             flex: 0 0 auto;
@@ -1385,7 +1373,6 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-text17 {
-            color: var(--dl-color-primary1-blue80);
             font-family: 'Raleway';
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }

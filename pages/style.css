@@ -53,6 +53,28 @@
 .button:hover {
   background-color: var(--dl-color-primary-700);
 }
+.button-secondary {
+  color: var(--dl-color-ui-1000);
+  display: inline-block;
+  padding: .75rem 2rem;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-secondary-400);
+}
+.button-secondary:hover {
+  background-color: var(--dl-color-secondary-500);
+}
+.button-tertiary {
+  color: var(--dl-color-ui-1000);
+  display: inline-block;
+  padding: .75rem 2rem;
+  border-color: var(--dl-color-ui-1000);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.button-tertiary:hover {
+  color: var(--dl-color-ui-0);
+  background-color: var(--dl-color-ui-1000);
+}
 .input {
   color: var(--dl-color-ui-1000);
   cursor: auto;
@@ -97,7 +119,7 @@
   font-size: 1.8rem;
 }
 .sectionTitle {
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: 700;
   letter-spacing: 1.2;
   text-transform: uppercase;
@@ -114,12 +136,12 @@
   text-transform: none;
   text-decoration: none;
 }
-.H1 {
-  font-size: 72px;
+.H4 {
+  font-size: 24px;
   font-family: Inter;
   font-weight: 600;
-  line-height: 1.1;
-  letter-spacing: -3px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
   text-transform: none;
   text-decoration: none;
 }
@@ -132,21 +154,21 @@
   text-transform: none;
   text-decoration: none;
 }
+.H1 {
+  font-size: 72px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -3px;
+  text-transform: none;
+  text-decoration: none;
+}
 .H2 {
   font-size: 48px;
   font-family: Inter;
   font-weight: 600;
   line-height: 1.12;
   letter-spacing: -2px;
-  text-transform: none;
-  text-decoration: none;
-}
-.H4 {
-  font-size: 24px;
-  font-family: Inter;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: -0.5px;
   text-transform: none;
   text-decoration: none;
 }

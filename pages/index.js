@@ -39,7 +39,7 @@ const Home = (props) => {
               </nav>
               <a
                 href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
-                className="home-contact button P2B"
+                className="home-contact P2B button"
               >
                 Contact Us
               </a>
@@ -102,12 +102,12 @@ const Home = (props) => {
               </h1>
               <div className="home-container02">
                 <span className="home-hero-sub-heading Content">
-                  Your vision, our design, one logo! Get started with a
-                  memorable logo that will connect with your audience.
+                  Get started with a memorable logo that will connect with your
+                  audience and stand out from your competitors.
                 </span>
                 <a
                   href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
-                  className="home-hero-button1 P2B button"
+                  className="home-hero-button1 button P2B"
                 >
                   Contact Us
                 </a>
@@ -233,40 +233,50 @@ const Home = (props) => {
                 <span className="H4">$295</span>
                 <div className="home-container08">
                   <div className="home-container09">
-                    <span className="home-text07">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon10">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features Content">
                       Get your logo
                     </span>
                   </div>
                   <div className="home-container10">
-                    <span className="home-text08">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon12">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features01 Content">
                       7-day delivery
                     </span>
                   </div>
                   <div className="home-container11">
-                    <span className="home-text09">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon14">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features02">
                       All logo files (vector &amp; raster)
                     </span>
                   </div>
                   <div className="home-container12">
-                    <span className="home-text10">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon16">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features03 Content">
                       Unlimited revisions
                     </span>
                   </div>
                 </div>
-                <button className="home-button button">
+                <button className="home-button button-tertiary">
                   Start With Your Logo
                 </button>
               </div>
               <div className="home-pricing-card1">
-                <span className="home-text11 H2">Pro</span>
+                <span className="home-text07 H2">Pro</span>
                 <span className="H4">$495</span>
                 <div className="home-container13">
                   <div className="home-container14">
-                    <span className="home-text12">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon18">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features04">
                       <span className="Content">
                         Get your
@@ -281,19 +291,25 @@ const Home = (props) => {
                     </span>
                   </div>
                   <div className="home-container15">
-                    <span className="home-text16">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon20">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features05 Content">
                       3-day super fast delivery
                     </span>
                   </div>
                   <div className="home-container16">
-                    <span className="home-text17">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon22">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features06">
                       All logo files (vector &amp; raster)
                     </span>
                   </div>
                   <div className="home-container17">
-                    <span className="home-text18">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon24">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features07 Content">
                       Unlimited revisions
                     </span>
@@ -304,14 +320,16 @@ const Home = (props) => {
                 </button>
               </div>
               <div className="home-pricing-card2">
-                <span className="home-text19 H2">
+                <span className="home-text11 H2">
                   <span>Custom</span>
                   <br></br>
                 </span>
                 <span className="H4">Starts from $1995</span>
                 <div className="home-container18">
                   <div className="home-container19">
-                    <span className="home-text22">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon26">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features08">
                       <span className="Content">
                         Get your
@@ -326,37 +344,47 @@ const Home = (props) => {
                     </span>
                   </div>
                   <div className="home-container20">
-                    <span className="home-text26">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon28">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features09 Content">
                       Branding design
                     </span>
                   </div>
                   <div className="home-container21">
-                    <span className="home-text27">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon30">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features10 Content">
                       Website/mobile UI design
                     </span>
                   </div>
                   <div className="home-container22">
-                    <span className="home-text28">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon32">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features11 Content">
                       Prioritized design delivery
                     </span>
                   </div>
                   <div className="home-container23">
-                    <span className="home-text29">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon34">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features12">
                       All files and assets
                     </span>
                   </div>
                   <div className="home-container24">
-                    <span className="home-text30">✔</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon36">
+                      <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                    </svg>
                     <span className="home-free-plan-features13 Content">
                       Unlimited revisions
                     </span>
                   </div>
                 </div>
-                <button className="home-button2 button">
+                <button className="home-button2 button-tertiary">
                   Get Your Full Brand
                 </button>
               </div>
@@ -373,7 +401,7 @@ const Home = (props) => {
             </span>
             <a
               href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
-              className="home-hero-button11 button"
+              className="home-hero-button11 button-secondary"
             >
               Contact Us
             </a>
@@ -383,12 +411,12 @@ const Home = (props) => {
           <div className="home-faq-container">
             <div className="home-faq1">
               <div className="home-container25">
-                <span className="home-text31 sectionTitle">
+                <span className="home-text17 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
                 </span>
-                <h2 className="home-text34 heading2 H2">Common questions</h2>
-                <span className="home-text35 Content">
+                <h2 className="home-text20 heading2 H2">Common questions</h2>
+                <span className="home-text21 Content">
                   <span>
                     Here are some of the most common questions that we get.
                   </span>
@@ -473,15 +501,15 @@ const Home = (props) => {
                   Question="Can I provide my own design ideas for the logo?"
                 ></Question>
                 <Question
-                  Answer="Upon completion of your logo design, we will provide you with high-resolution files in various formats, including JPEG, PNG, and EPS. These files can be used for both print and digital purposes."
+                  Answer="Upon completion of your logo design, we will provide you with high-resolution files in various formats, including JPEG, PNG, SVG, and EPS. These files can be used for both print and digital purposes."
                   Question="What file formats will I receive for my logo?"
                 ></Question>
                 <Question
-                  Answer="Yes, we offer up to three rounds of revisions for the logo design. We want to ensure that you are completely satisfied with the final result."
+                  Answer="Yes, we offer unlimited revisions for the logo design. We want to ensure that you are completely satisfied with the final result."
                   Question="Do you offer revisions for the logo design?"
                 ></Question>
                 <Question
-                  Answer="The cost of creating a logo varies depending on the complexity of the design and the specific requirements. Please contact us for a personalized quote based on your needs."
+                  Answer="The cost of creating a logo varies depending on the complexity of the design and the specific requirements. Please check out the pricing section or contact us for a personalized quote based on your needs."
                   Question="What is the cost of creating a logo?"
                 ></Question>
               </div>
@@ -500,28 +528,49 @@ const Home = (props) => {
             </div>
             <div className="home-separator"></div>
             <div className="home-container28">
-              <span className="home-text52">
+              <span className="home-text38 Content">
                 ©2023 - 2024 Brandsive, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
-                <svg
-                  viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon10"
+                <a
+                  href="https://twitter.com/brandsive"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link"
                 >
-                  <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                </svg>
-                <svg
-                  viewBox="0 0 877.7142857142857 1024"
-                  className="home-icon12"
+                  <svg
+                    viewBox="0 0 950.8571428571428 1024"
+                    className="home-icon38"
+                  >
+                    <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://instagram.com/brandsive"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link1"
                 >
-                  <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                </svg>
-                <svg
-                  viewBox="0 0 602.2582857142856 1024"
-                  className="home-icon14"
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    className="home-icon40"
+                  >
+                    <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://facebook.com/brandsive"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link2"
                 >
-                  <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
-                </svg>
+                  <svg
+                    viewBox="0 0 602.2582857142856 1024"
+                    className="home-icon42"
+                  >
+                    <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+                  </svg>
+                </a>
               </div>
             </div>
           </footer>
@@ -544,6 +593,8 @@ const Home = (props) => {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
+            padding-left: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -593,16 +644,9 @@ const Home = (props) => {
             color: #3d6e70ff;
           }
           .home-contact {
-            transition: 0.3s;
             border-color: var(--dl-color-primary1-blue100);
             padding-left: 1.5rem;
             padding-right: 1.5rem;
-          }
-          .home-contact:hover {
-            border-color: rgba(41, 20, 119, 0.9);
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-            background-color: rgba(41, 20, 119, 0.9);
           }
           .home-burger-menu {
             display: none;
@@ -729,11 +773,14 @@ const Home = (props) => {
             height: auto;
             display: flex;
             align-items: flex-start;
+            padding-left: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .home-hero1 {
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             max-width: var(--dl-size-size-maxwidth);
             min-height: auto;
             align-items: center;
@@ -805,7 +852,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-text {
-            color: var(--dl-color-primary1-blue80);
+            color: var(--dl-color-primary-600);
             text-align: center;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -903,6 +950,7 @@ const Home = (props) => {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
             justify-content: center;
@@ -911,7 +959,7 @@ const Home = (props) => {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
-            max-width: 450px;
+            max-width: 384px;
             align-self: stretch;
             min-height: 450px;
             align-items: center;
@@ -927,10 +975,11 @@ const Home = (props) => {
             text-align: center;
           }
           .home-container08 {
+            gap: var(--dl-space-space-unit);
+            flex: 1;
             width: 100%;
             display: flex;
             align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
           .home-container09 {
@@ -938,12 +987,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text07 {
-            color: var(--dl-color-ui-500);
+          .home-icon10 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features {
             color: var(--dl-color-ui-1000);
@@ -954,12 +1004,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text08 {
-            color: var(--dl-color-ui-500);
+          .home-icon12 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features01 {
             color: var(--dl-color-ui-1000);
@@ -970,12 +1021,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text09 {
-            color: var(--dl-color-ui-500);
+          .home-icon14 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features02 {
             color: var(--dl-color-ui-1000);
@@ -986,12 +1038,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text10 {
-            color: var(--dl-color-ui-500);
+          .home-icon16 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features03 {
             color: var(--dl-color-ui-1000);
@@ -999,21 +1052,16 @@ const Home = (props) => {
           }
           .home-button {
             width: 100%;
-            margin-top: auto;
-            transition: 0.3s;
             font-weight: 700;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-          }
-          .home-button:hover {
-            border-color: rgba(41, 20, 119, 0.9);
-            background-color: rgba(41, 20, 119, 0.9);
+            border-color: var(--dl-color-ui-1000);
+            border-width: 1px;
+            background-color: transparent;
           }
           .home-pricing-card1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
-            max-width: 450px;
+            max-width: 384px;
             align-self: stretch;
             min-height: 450px;
             align-items: center;
@@ -1025,14 +1073,16 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             background-color: var(--dl-color-ui-0);
           }
-          .home-text11 {
+          .home-text07 {
+            color: var(--dl-color-primary-600);
             text-align: center;
           }
           .home-container13 {
+            gap: var(--dl-space-space-unit);
+            flex: 1;
             width: 100%;
             display: flex;
             align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
           .home-container14 {
@@ -1040,12 +1090,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text12 {
-            color: var(--dl-color-ui-500);
+          .home-icon18 {
+            fill: var(--dl-color-primary-600);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features04 {
             color: var(--dl-color-ui-1000);
@@ -1062,12 +1113,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text16 {
-            color: var(--dl-color-ui-500);
+          .home-icon20 {
+            fill: var(--dl-color-primary-600);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features05 {
             color: var(--dl-color-ui-1000);
@@ -1078,12 +1130,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text17 {
-            color: var(--dl-color-ui-500);
+          .home-icon22 {
+            fill: var(--dl-color-primary-600);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features06 {
             color: var(--dl-color-ui-1000);
@@ -1094,12 +1147,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text18 {
-            color: var(--dl-color-ui-500);
+          .home-icon24 {
+            fill: var(--dl-color-primary-600);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features07 {
             color: var(--dl-color-ui-1000);
@@ -1107,21 +1161,13 @@ const Home = (props) => {
           }
           .home-button1 {
             width: 100%;
-            margin-top: auto;
-            transition: 0.3s;
             font-weight: 700;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-          }
-          .home-button1:hover {
-            border-color: rgba(41, 20, 119, 0.9);
-            background-color: rgba(41, 20, 119, 0.9);
           }
           .home-pricing-card2 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
-            max-width: 450px;
+            max-width: 384px;
             align-self: stretch;
             min-height: 450px;
             align-items: center;
@@ -1134,14 +1180,14 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-ui-0);
           }
-          .home-text19 {
+          .home-text11 {
             text-align: center;
           }
           .home-container18 {
+            gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
             align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
           .home-container19 {
@@ -1149,12 +1195,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text22 {
-            color: var(--dl-color-ui-500);
+          .home-icon26 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features08 {
             color: var(--dl-color-ui-1000);
@@ -1171,12 +1218,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text26 {
-            color: var(--dl-color-ui-500);
+          .home-icon28 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features09 {
             color: var(--dl-color-ui-1000);
@@ -1193,12 +1241,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text27 {
-            color: var(--dl-color-ui-500);
+          .home-icon30 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features10 {
             color: var(--dl-color-ui-1000);
@@ -1215,12 +1264,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text28 {
-            color: var(--dl-color-ui-500);
+          .home-icon32 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features11 {
             color: var(--dl-color-ui-1000);
@@ -1231,12 +1281,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text29 {
-            color: var(--dl-color-ui-500);
+          .home-icon34 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features12 {
             color: var(--dl-color-ui-1000);
@@ -1247,12 +1298,13 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            align-items: center;
             flex-direction: row;
           }
-          .home-text30 {
-            color: var(--dl-color-ui-500);
+          .home-icon36 {
+            fill: var(--dl-color-ui-500);
+            width: 24px;
+            height: 24px;
           }
           .home-free-plan-features13 {
             color: var(--dl-color-ui-1000);
@@ -1260,15 +1312,7 @@ const Home = (props) => {
           }
           .home-button2 {
             width: 100%;
-            margin-top: auto;
-            transition: 0.3s;
             font-weight: 700;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-          }
-          .home-button2:hover {
-            border-color: rgba(41, 20, 119, 0.9);
-            background-color: rgba(41, 20, 119, 0.9);
           }
           .home-banner {
             flex: 0 0 auto;
@@ -1277,7 +1321,7 @@ const Home = (props) => {
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: var(--dl-color-ui-1000);
+            background-color: var(--dl-color-primary-700);
           }
           .home-banner1 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -1302,21 +1346,9 @@ const Home = (props) => {
             line-height: 1.6;
           }
           .home-hero-button11 {
-            color: var(--dl-color-gray-white);
             font-size: 18px;
-            transition: 0.3s;
             font-weight: bold;
-            padding-top: 1.5rem;
-            padding-left: 3rem;
-            padding-right: 3rem;
-            padding-bottom: 1.5rem;
             text-decoration: none;
-            background-color: var(--dl-color-success-500);
-          }
-          .home-hero-button11:hover {
-            color: var(--dl-color-ui-0);
-            border-color: rgba(41, 20, 119, 0.9);
-            background-color: rgba(41, 20, 119, 0.9);
           }
           .home-faq {
             flex: 0 0 auto;
@@ -1338,6 +1370,7 @@ const Home = (props) => {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
             padding-top: var(--dl-space-space-sixunits);
@@ -1351,15 +1384,15 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text31 {
+          .home-text17 {
             color: var(--dl-color-primary1-blue80);
             font-family: 'Raleway';
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text34 {
+          .home-text20 {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text35 {
+          .home-text21 {
             color: var(--dl-color-ui-800);
             text-align: left;
           }
@@ -1461,8 +1494,8 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text52 {
-            color: var(--dl-color-secondary-500);
+          .home-text38 {
+            color: var(--dl-color-ui-0);
           }
           .home-icon-group1 {
             display: flex;
@@ -1470,22 +1503,34 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-icon10 {
-            fill: var(--dl-color-secondary-500);
+          .home-link {
+            display: contents;
+          }
+          .home-icon38 {
+            fill: var(--dl-color-ui-0);
             width: 24px;
             height: 24px;
             margin-right: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
-          .home-icon12 {
-            fill: var(--dl-color-secondary-500);
+          .home-link1 {
+            display: contents;
+          }
+          .home-icon40 {
+            fill: var(--dl-color-ui-0);
             width: 24px;
             height: 24px;
             margin-right: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
-          .home-icon14 {
-            fill: var(--dl-color-secondary-500);
+          .home-link2 {
+            display: contents;
+          }
+          .home-icon42 {
+            fill: var(--dl-color-ui-0);
             width: 24px;
             height: 24px;
+            text-decoration: none;
           }
           @media (max-width: 991px) {
             .home-hero1 {
@@ -1541,7 +1586,7 @@ const Home = (props) => {
             .home-banner-sub-heading {
               max-width: 100%;
             }
-            .home-text35 {
+            .home-text21 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
@@ -1664,7 +1709,7 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .home-text35 {
+            .home-text21 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -1683,7 +1728,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text52 {
+            .home-text38 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -1742,7 +1787,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text52 {
+            .home-text38 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="208" height="208" viewBox="0 0 208 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="208" height="208" fill="#380E4D"/>
+<path d="M104 56L104 80L152 104C152 56 152 56 104 56Z" fill="#BB33FF"/>
+<path d="M152 104L128 104L104 152C152 152 152 152 152 104Z" fill="#00E699"/>
+<path d="M104 152V128L56 104C56 152 56 152 104 152Z" fill="#BB33FF"/>
+<path d="M56 104H80L104 56C56 56 56 56 56 104Z" fill="#00E699"/>
+</svg>

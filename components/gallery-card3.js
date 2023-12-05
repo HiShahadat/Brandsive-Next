@@ -15,24 +15,75 @@ const GalleryCard3 = (props) => {
       <style jsx>
         {`
           .gallery-card3-gallery-card {
-            width: 100%;
-            height: 300px;
-            display: flex;
-            position: relative;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
+            width: 208px;
+            height: 208px;
           }
           .gallery-card3-image {
-            top: 0px;
-            left: 0px;
-            right: auto;
-            width: 100%;
-            bottom: auto;
-            height: 300px;
-            position: absolute;
+            width: 208px;
+            height: 208px;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius8);
+          }
+          .gallery-card3-root-class-name {
+            height: auto;
+          }
+          .gallery-card3-root-class-name9 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name10 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name11 {
+            height: auto;
+          }
+
+          .gallery-card3-root-class-name1 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name2 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name3 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name4 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name5 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name6 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name7 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name8 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name24 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name25 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name26 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name27 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name28 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name29 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name30 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name31 {
+            height: auto;
           }
         `}
       </style>
@@ -44,7 +95,7 @@ GalleryCard3.defaultProps = {
   rootClassName: '',
   image_alt: 'image',
   image_src:
-    'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&w=1500',
+    'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&w=300',
 }
 
 GalleryCard3.propTypes = {

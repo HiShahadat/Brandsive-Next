@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import FeatureCard from '../components/feature-card'
@@ -15,11 +16,15 @@ const Home = (props) => {
         </Head>
         <div className="home-header">
           <header data-thq="thq-navbar" className="home-navbar-interactive">
-            <img
-              alt="pastedImage"
-              src="/external/pastedimage-lot6.svg"
-              className="home-pasted-image"
-            />
+            <Link href="/">
+              <a className="home-link">
+                <img
+                  alt="pastedImage"
+                  src="/external/pastedimage-lot6.svg"
+                  className="home-pasted-image"
+                />
+              </a>
+            </Link>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
                 <a href="#portfolio" className="home-nav4">
@@ -67,8 +72,8 @@ const Home = (props) => {
                   <span className="home-nav5">Blog</span>
                 </nav>
                 <div className="home-buttons">
-                  <button className="home-login P2B button">Login</button>
-                  <button className="home-register P2B button">Register</button>
+                  <button className="home-login button">Login</button>
+                  <button className="home-register button">Register</button>
                 </div>
               </div>
               <div>
@@ -98,7 +103,7 @@ const Home = (props) => {
           <div className="home-hero1">
             <div className="home-container01">
               <h1 className="home-hero-heading H1">
-                The Vision You Have Starts With A Logo. Let&apos;s Create!
+                The Vision You Have, Starts With A Logo. Let&apos;s Create!
               </h1>
               <div className="home-container02">
                 <span className="home-hero-sub-heading Content">
@@ -107,7 +112,7 @@ const Home = (props) => {
                 </span>
                 <a
                   href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
-                  className="home-hero-button1 P2B button"
+                  className="home-hero-button1 button P2B"
                 >
                   Contact Us
                 </a>
@@ -119,7 +124,7 @@ const Home = (props) => {
           <div className="home-features-container">
             <div className="home-features1">
               <div className="home-container03">
-                <p className="home-text sectionTitle P2B">
+                <p className="sectionTitle">
                   <span>features</span>
                   <br></br>
                 </p>
@@ -162,52 +167,84 @@ const Home = (props) => {
             </span>
             <div className="home-container05">
               <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                image_src="/logofolio/hexagon-cutout-logo.svg"
+                rootClassName="rootClassName31"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/blue-red-geometric-logo.svg"
                 rootClassName="rootClassName"
               ></GalleryCard3>
               <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1594566641434-ae8e88662ed9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName1"
+                image_src="/logofolio/natural-eco-logo.svg"
+                rootClassName="rootClassName28"
               ></GalleryCard3>
               <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1650951478133-27538c57a484?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName3"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName2"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1518841252147-00cc0a43dcaf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName4"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1610128980054-68d94619e243?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName5"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1655437448675-f7684e62efe3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName6"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1652156752342-c786f1e1d1ce?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName7"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1658204212985-e0126040f88f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName8"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1533012551678-bb8804b3d159?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
-                rootClassName="rootClassName9"
-              ></GalleryCard3>
-              <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1658203897369-e465cf1c5758?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                image_src="/logofolio/circle-corporate-logo-design.svg"
                 rootClassName="rootClassName10"
               ></GalleryCard3>
               <GalleryCard3
-                image_src="https://images.unsplash.com/photo-1509765066291-6b5dd612da2b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTYxNTQwN3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+                image_src="/logofolio/creative-triangle-logo-tech.svg"
+                rootClassName="rootClassName7"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/purple-group-logo.svg"
+                rootClassName="rootClassName26"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/elegant-square-logo-modern.svg"
+                rootClassName="rootClassName5"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/red-circle-logo-minimal.svg"
+                rootClassName="rootClassName25"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/security-style-star-logo.svg"
+                rootClassName="rootClassName8"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/multi-dimentional-agency-logo.svg"
+                rootClassName="rootClassName29"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/tech-hexagon-minimal-logo.svg"
+                rootClassName="rootClassName3"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/visually-different-natural-logo.svg"
+                rootClassName="rootClassName6"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/ultra-minimal-logo-symbol.svg"
+                rootClassName="rootClassName2"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/tech-arrow-logo-design.svg"
+                rootClassName="rootClassName4"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/bright-creative-logomark.svg"
+                rootClassName="rootClassName9"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/s-lettermark-logo-symbol.svg"
+                rootClassName="rootClassName24"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/government-logo-design.svg"
+                rootClassName="rootClassName1"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/modern-tech-logo-design.svg"
+                rootClassName="rootClassName30"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/eco-friendly-flower-logo.svg"
                 rootClassName="rootClassName11"
+              ></GalleryCard3>
+              <GalleryCard3
+                image_src="/logofolio/nature-eco-logo-symbol.svg"
+                rootClassName="rootClassName27"
               ></GalleryCard3>
             </div>
           </div>
@@ -215,7 +252,7 @@ const Home = (props) => {
         <div className="home-pricing">
           <div id="pricing" className="home-pricing1">
             <div className="home-container06">
-              <span className="home-text03 sectionTitle">
+              <span className="sectionTitle">
                 <span>Pricing</span>
                 <br></br>
               </span>
@@ -315,7 +352,7 @@ const Home = (props) => {
                     </span>
                   </div>
                 </div>
-                <button className="home-button1 P2B button">
+                <button className="home-button1 button P2B">
                   Get Your Logo Fast
                 </button>
               </div>
@@ -411,7 +448,7 @@ const Home = (props) => {
           <div className="home-faq-container">
             <div className="home-faq1">
               <div className="home-container25">
-                <span className="home-text17 sectionTitle">
+                <span className="sectionTitle">
                   <span>FAQ</span>
                   <br></br>
                 </span>
@@ -536,7 +573,7 @@ const Home = (props) => {
                   href="https://twitter.com/brandsive"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link"
+                  className="home-link1"
                 >
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
@@ -549,7 +586,7 @@ const Home = (props) => {
                   href="https://instagram.com/brandsive"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link1"
+                  className="home-link2"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -562,7 +599,7 @@ const Home = (props) => {
                   href="https://facebook.com/brandsive"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link2"
+                  className="home-link3"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
@@ -606,9 +643,13 @@ const Home = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+          .home-link {
+            display: contents;
+          }
           .home-pasted-image {
             width: 156px;
             height: 32px;
+            text-decoration: none;
           }
           .home-desktop-menu {
             flex: 1;
@@ -849,10 +890,6 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text {
-            text-align: center;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
           .home-features-heading {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -863,7 +900,7 @@ const Home = (props) => {
           .home-container04 {
             width: 100%;
             display: grid;
-            grid-gap: var(--dl-space-space-twounits);
+            grid-gap: var(--dl-space-space-fourunits);
             grid-template-columns: 1fr 1fr;
           }
           .home-portfolio {
@@ -881,8 +918,6 @@ const Home = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             padding-top: var(--dl-space-space-fourunits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
           }
@@ -896,11 +931,11 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-threeunits);
           }
           .home-container05 {
+            gap: 60px;
             width: 100%;
-            display: grid;
-            grid-gap: var(--dl-space-space-unit);
+            display: flex;
+            flex-wrap: wrap;
             margin-top: var(--dl-space-space-twounits);
-            grid-template-columns: 1fr 1fr 1fr 1fr;
           }
           .home-pricing {
             flex: 0 0 auto;
@@ -928,10 +963,6 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: flex-start;
-          }
-          .home-text03 {
-            font-family: 'Raleway';
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .home-pricing-heading {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1372,10 +1403,6 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text17 {
-            font-family: 'Raleway';
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
           .home-text20 {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -1490,7 +1517,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-link {
+          .home-link1 {
             display: contents;
           }
           .home-icon38 {
@@ -1500,7 +1527,7 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link1 {
+          .home-link2 {
             display: contents;
           }
           .home-icon40 {
@@ -1510,7 +1537,7 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link2 {
+          .home-link3 {
             display: contents;
           }
           .home-icon42 {
@@ -1544,9 +1571,6 @@ const Home = (props) => {
             }
             .home-gallery-sub-heading {
               text-align: center;
-            }
-            .home-container05 {
-              grid-template-columns: 1fr 1fr 1fr;
             }
             .home-pricing-sub-heading {
               text-align: center;
@@ -1643,9 +1667,6 @@ const Home = (props) => {
             .home-gallery-sub-heading {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
-            }
-            .home-container05 {
-              grid-template-columns: 1fr 1fr;
             }
             .home-pricing1 {
               padding-left: var(--dl-space-space-twounits);
@@ -1749,9 +1770,6 @@ const Home = (props) => {
             }
             .home-gallery {
               padding: var(--dl-space-space-unit);
-            }
-            .home-container05 {
-              grid-template-columns: 1fr;
             }
             .home-pricing-card2 {
               margin-bottom: 0px;

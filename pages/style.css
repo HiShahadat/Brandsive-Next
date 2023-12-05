@@ -25,7 +25,7 @@
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
   --dl-size-size-xxlarge: 288px;
-  --dl-size-size-maxwidth: 1248px;
+  --dl-size-size-maxwidth: 1280px;
   --dl-color-secondary-400: #ffd633ff;
   --dl-color-secondary-500: #ffcc00ff;
   --dl-radius-radius-round: 50%;
@@ -52,7 +52,7 @@
   background-color: var(--dl-color-primary-600);
 }
 .button:hover {
-  transition: 300ms;
+  transition: 300ms all;
   background-color: var(--dl-color-primary-700);
 }
 .button-secondary {
@@ -64,6 +64,7 @@
   background-color: var(--dl-color-secondary-400);
 }
 .button-secondary:hover {
+  transition: 300ms all;
   background-color: var(--dl-color-secondary-500);
 }
 .button-tertiary {
@@ -77,6 +78,7 @@
 }
 .button-tertiary:hover {
   color: var(--dl-color-ui-0);
+  transition: 300ms all;
   background-color: var(--dl-color-ui-1000);
 }
 .input {
@@ -164,7 +166,7 @@
   font-family: Inter;
   font-weight: 600;
   line-height: 1.1;
-  letter-spacing: -3px;
+  letter-spacing: -3.5px;
   text-transform: none;
   text-decoration: none;
 }

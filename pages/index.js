@@ -55,27 +55,44 @@ const Home = (props) => {
               </svg>
             </div>
             <div data-thq="thq-mobile-menu" className="home-mobile-menu">
-              <div className="home-nav">
-                <div className="home-top">
-                  <span className="home-logo">BRANDSIVE</span>
-                  <div data-thq="thq-close-menu" className="home-close-menu">
-                    <svg viewBox="0 0 1024 1024" className="home-icon02">
-                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <nav className="home-links1">
-                  <span className="home-nav1">Home</span>
-                  <span className="home-nav21">Contact Us</span>
-                  <span className="home-nav31">Pricing</span>
-                  <span className="home-nav41">Team</span>
-                  <span className="home-nav5">Blog</span>
-                </nav>
-                <div className="home-buttons">
-                  <button className="home-login button">Login</button>
-                  <button className="home-register button">Register</button>
+              <div className="home-top">
+                <Link href="/">
+                  <a className="home-link1">
+                    <img
+                      alt="pastedImage"
+                      src="/external/pastedimage-lot6.svg"
+                      className="home-pasted-image1"
+                    />
+                  </a>
+                </Link>
+                <div data-thq="thq-close-menu" className="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" className="home-icon02">
+                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                  </svg>
                 </div>
               </div>
+              <nav className="home-links1">
+                <a href="#portfolio" className="home-nav41">
+                  Portfolio
+                </a>
+                <a href="#pricing" className="home-nav31">
+                  Pricing
+                </a>
+                <span className="home-nav21">
+                  Contact
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </nav>
+              <a
+                href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
+                className="home-contact1 P2B button"
+              >
+                Contact Us
+              </a>
               <div>
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
@@ -100,23 +117,21 @@ const Home = (props) => {
           </header>
         </div>
         <div className="home-hero">
-          <div className="home-hero1">
-            <div className="home-container01">
-              <h1 className="home-hero-heading H1">
-                The Vision You Have, Starts With A Logo. Let&apos;s Create!
-              </h1>
-              <div className="home-container02">
-                <span className="home-hero-sub-heading Content">
-                  Get started with a memorable logo that will connect with your
-                  audience and stand out from your competitors.
-                </span>
-                <a
-                  href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
-                  className="home-hero-button1 button P2B"
-                >
-                  Contact Us
-                </a>
-              </div>
+          <div className="home-container01">
+            <h1 className="home-hero-heading H1">
+              The Vision You Have, Starts With A Logo. Let&apos;s Create!
+            </h1>
+            <div className="home-container02">
+              <span className="home-hero-sub-heading Content">
+                Get started with a memorable logo that will connect with your
+                audience and stand out from your competitors.
+              </span>
+              <a
+                href="mailto:hi@brandsive.com?subject=Hey, I need a logo!"
+                className="home-hero-button1 button P2B"
+              >
+                Contact Us
+              </a>
             </div>
           </div>
         </div>
@@ -445,118 +460,116 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-faq">
-          <div className="home-faq-container">
-            <div className="home-faq1">
-              <div className="home-container25">
-                <span className="sectionTitle">
-                  <span>FAQ</span>
-                  <br></br>
+          <div className="home-faq1">
+            <div className="home-container25">
+              <span className="sectionTitle">
+                <span>FAQ</span>
+                <br></br>
+              </span>
+              <h2 className="home-text20 heading2 H2">Common questions</h2>
+              <span className="home-text21 Content">
+                <span>
+                  Here are some of the most common questions that we get.
                 </span>
-                <h2 className="home-text20 heading2 H2">Common questions</h2>
-                <span className="home-text21 Content">
-                  <span>
-                    Here are some of the most common questions that we get.
-                  </span>
-                  <br></br>
+                <br></br>
+                <span>
                   <span>
                     <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
                     <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
                   </span>
                   <span>
                     <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
                     <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
                   </span>
                 </span>
-              </div>
-              <div className="home-container26">
-                <Question
-                  Answer="The time it takes to create a logo depends on the complexity of the design and the number of revisions required. Typically, our logo design process takes around 3-7 days.."
-                  Question="How long does it take to create a logo?"
-                ></Question>
-                <Question
-                  Answer="Absolutely! We encourage our clients to share their design ideas and inspirations with us. Our team will work closely with you to bring your vision to life."
-                  Question="Can I provide my own design ideas for the logo?"
-                ></Question>
-                <Question
-                  Answer="Upon completion of your logo design, we will provide you with high-resolution files in various formats, including JPEG, PNG, SVG, and EPS. These files can be used for both print and digital purposes."
-                  Question="What file formats will I receive for my logo?"
-                ></Question>
-                <Question
-                  Answer="Yes, we offer unlimited revisions for the logo design. We want to ensure that you are completely satisfied with the final result."
-                  Question="Do you offer revisions for the logo design?"
-                ></Question>
-                <Question
-                  Answer="The cost of creating a logo varies depending on the complexity of the design and the specific requirements. Please check out the pricing section or contact us for a personalized quote based on your needs."
-                  Question="What is the cost of creating a logo?"
-                ></Question>
-              </div>
+                <span>
+                  <span>
+                    <span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </div>
+            <div className="home-container26">
+              <Question
+                Answer="The time it takes to create a logo depends on the complexity of the design and the number of revisions required. Typically, our logo design process takes around 3-7 days.."
+                Question="How long does it take to create a logo?"
+              ></Question>
+              <Question
+                Answer="Absolutely! We encourage our clients to share their design ideas and inspirations with us. Our team will work closely with you to bring your vision to life."
+                Question="Can I provide my own design ideas for the logo?"
+              ></Question>
+              <Question
+                Answer="Upon completion of your logo design, we will provide you with high-resolution files in various formats, including JPEG, PNG, SVG, and EPS. These files can be used for both print and digital purposes."
+                Question="What file formats will I receive for my logo?"
+              ></Question>
+              <Question
+                Answer="Yes, we offer unlimited revisions for the logo design. We want to ensure that you are completely satisfied with the final result."
+                Question="Do you offer revisions for the logo design?"
+              ></Question>
+              <Question
+                Answer="The cost of creating a logo varies depending on the complexity of the design and the specific requirements. Please check out the pricing section or contact us for a personalized quote based on your needs."
+                Question="What is the cost of creating a logo?"
+              ></Question>
             </div>
           </div>
         </div>
         <div className="home-footer">
           <footer className="home-footer1">
             <div className="home-container27">
-              <span className="home-logo1">BRANDSIVE</span>
+              <span className="home-logo">BRANDSIVE</span>
               <nav className="home-links2">
                 <span className="home-nav42">Portfolio</span>
                 <span className="home-nav32">Pricing</span>
@@ -573,7 +586,7 @@ const Home = (props) => {
                   href="https://twitter.com/brandsive"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link1"
+                  className="home-link2"
                 >
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
@@ -586,7 +599,7 @@ const Home = (props) => {
                   href="https://instagram.com/brandsive"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link2"
+                  className="home-link3"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -599,7 +612,7 @@ const Home = (props) => {
                   href="https://facebook.com/brandsive"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link3"
+                  className="home-link4"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
@@ -701,18 +714,12 @@ const Home = (props) => {
             width: 100%;
             height: 100vh;
             display: none;
-            padding: 32px;
             z-index: 100;
             position: absolute;
-            border-radius: 50px;
+            border-radius: 12px;
             flex-direction: column;
             justify-content: space-between;
             background-color: var(--dl-color-ui-0);
-          }
-          .home-nav {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
           }
           .home-top {
             width: 100%;
@@ -721,9 +728,13 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .home-logo {
-            font-size: 2em;
-            font-weight: bold;
+          .home-link1 {
+            display: contents;
+          }
+          .home-pasted-image1 {
+            width: 156px;
+            height: 32px;
+            text-decoration: none;
           }
           .home-close-menu {
             display: flex;
@@ -737,60 +748,35 @@ const Home = (props) => {
             height: var(--dl-size-size-xsmall);
           }
           .home-links1 {
-            flex: 0 0 auto;
+            gap: var(--dl-space-space-unit);
+            flex: 1;
             display: flex;
-            align-self: flex-start;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-nav1 {
-            color: var(--dl-color-ui-1000);
-            margin-bottom: var(--dl-space-space-unit);
+          .home-nav41 {
+            transition: 0.3s;
+            text-decoration: none;
           }
-          .home-nav21 {
-            color: var(--dl-color-ui-1000);
-            margin-bottom: var(--dl-space-space-unit);
+          .home-nav41:hover {
+            color: #3d6e70ff;
           }
           .home-nav31 {
-            color: var(--dl-color-ui-1000);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-nav41 {
-            color: var(--dl-color-ui-1000);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-nav5 {
-            color: var(--dl-color-ui-1000);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-buttons {
-            display: flex;
-            margin-top: var(--dl-space-space-unit);
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-login {
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            margin-right: var(--dl-space-space-twounits);
-            padding-left: 1.5rem;
-            border-radius: 30px;
-            padding-right: 1.5rem;
-          }
-          .home-register {
-            color: var(--dl-color-ui-0);
             transition: 0.3s;
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            padding-left: 1.5rem;
-            border-radius: 30px;
-            padding-right: 1.5rem;
-            background-color: var(--dl-color-primary1-blue100);
+            text-decoration: none;
           }
-          .home-register:hover {
-            border-color: #849492ff;
-            background-color: #849492ff;
+          .home-nav31:hover {
+            color: #3d6e70ff;
+          }
+          .home-nav21 {
+            transition: 0.3s;
+          }
+          .home-nav21:hover {
+            color: #3d6e70ff;
+          }
+          .home-contact1 {
+            width: 100%;
+            border-color: var(--dl-color-primary1-blue100);
           }
           .home-icon04 {
             width: var(--dl-size-size-xsmall);
@@ -812,25 +798,17 @@ const Home = (props) => {
             height: auto;
             display: flex;
             align-items: flex-start;
+            padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
-            justify-content: center;
-          }
-          .home-hero1 {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            max-width: var(--dl-size-size-maxwidth);
-            min-height: auto;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
           .home-container01 {
             gap: var(--dl-space-space-twounits);
+            width: 100%;
             display: flex;
+            max-width: var(--dl-size-size-maxwidth);
             align-items: flex-end;
             flex-direction: row;
             justify-content: flex-start;
@@ -1377,14 +1355,6 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-faq-container {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
           .home-faq1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
@@ -1446,7 +1416,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-logo1 {
+          .home-logo {
             color: var(--dl-color-ui-0);
             font-size: 2em;
             font-weight: bold;
@@ -1517,7 +1487,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-link1 {
+          .home-link2 {
             display: contents;
           }
           .home-icon38 {
@@ -1527,7 +1497,7 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link2 {
+          .home-link3 {
             display: contents;
           }
           .home-icon40 {
@@ -1537,7 +1507,7 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link3 {
+          .home-link4 {
             display: contents;
           }
           .home-icon42 {
@@ -1547,9 +1517,6 @@ const Home = (props) => {
             text-decoration: none;
           }
           @media (max-width: 991px) {
-            .home-hero1 {
-              flex-direction: column;
-            }
             .home-container01 {
               align-items: center;
               margin-right: 0px;
@@ -1559,23 +1526,8 @@ const Home = (props) => {
             .home-hero-heading {
               text-align: center;
             }
-            .home-hero-sub-heading {
-              text-align: center;
-              padding-left: var(--dl-space-space-threeunits);
-              padding-right: var(--dl-space-space-threeunits);
-            }
-            .home-features-sub-heading {
-              text-align: center;
-              padding-left: var(--dl-space-space-threeunits);
-              padding-right: var(--dl-space-space-threeunits);
-            }
             .home-gallery-sub-heading {
               text-align: center;
-            }
-            .home-pricing-sub-heading {
-              text-align: center;
-              padding-left: var(--dl-space-space-threeunits);
-              padding-right: var(--dl-space-space-threeunits);
             }
             .home-container07 {
               align-items: center;
@@ -1604,10 +1556,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-navbar-interactive {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
             .home-desktop-menu {
               display: none;
             }
@@ -1622,40 +1570,9 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-nav1 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-nav21 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-nav31 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-nav41 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-nav5 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-hero1 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .home-hero-sub-heading {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
             .home-features1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
-            }
-            .home-features-sub-heading {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
             }
             .home-container04 {
               grid-template-columns: 1fr;
@@ -1671,10 +1588,6 @@ const Home = (props) => {
             .home-pricing1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
-            }
-            .home-pricing-sub-heading {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
             }
             .home-container07 {
               align-items: center;
@@ -1705,11 +1618,6 @@ const Home = (props) => {
             .home-banner-sub-heading {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
-            }
-            .home-faq1 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-              flex-direction: column;
             }
             .home-container25 {
               max-width: 100%;
@@ -1741,35 +1649,72 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-navbar-interactive {
-              padding: var(--dl-space-space-unit);
+            .home-header {
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-icon {
+              width: 1.5rem;
+              height: 1.5rem;
             }
             .home-mobile-menu {
               padding: 16px;
             }
-            .home-logo {
-              font-size: 1.5em;
-            }
             .home-icon02 {
               fill: var(--dl-color-ui-900);
+              width: 1.5rem;
+              height: 1.5rem;
             }
-            .home-hero1 {
-              padding-top: var(--dl-space-space-twounits);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
+            .home-links1 {
+              flex: 0 0 auto;
+            }
+            .home-hero {
+              padding-top: var(--dl-space-space-fourunits);
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
+              padding-bottom: var(--dl-space-space-fourunits);
             }
             .home-container01 {
+              flex-wrap: wrap;
               margin-bottom: var(--dl-space-space-unit);
             }
+            .home-hero-heading {
+              font-size: 40px;
+              text-align: left;
+              letter-spacing: -1.5px;
+            }
             .home-features1 {
-              padding-top: var(--dl-space-space-twounits);
+              padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-fourunits);
+            }
+            .home-features-heading {
+              font-size: 32px;
+              letter-spacing: -1px;
+            }
+            .home-features-sub-heading {
+              text-align: left;
             }
             .home-gallery {
               padding: var(--dl-space-space-unit);
+            }
+            .home-pricing1 {
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-container06 {
+              align-items: flex-start;
+            }
+            .home-pricing-heading {
+              font-size: 32px;
+              letter-spacing: -1px;
+            }
+            .home-pricing-sub-heading {
+              text-align: left;
+            }
+            .home-pricing-card {
+              padding: var(--dl-space-space-oneandhalfunits);
             }
             .home-pricing-card2 {
               margin-bottom: 0px;
@@ -1779,6 +1724,10 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-faq {
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
             }
             .home-footer1 {
               padding: var(--dl-space-space-unit);

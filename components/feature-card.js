@@ -47,13 +47,17 @@ const FeatureCard = (props) => {
           }
           @media (max-width: 767px) {
             .feature-card-feature-card {
-              flex-direction: row;
+              gap: var(--dl-space-space-oneandhalfunits);
+              flex-direction: column;
             }
             .feature-card-container {
               flex-direction: column;
             }
           }
           @media (max-width: 479px) {
+            .feature-card-feature-card {
+              padding: var(--dl-space-space-oneandhalfunits);
+            }
             .feature-card-container {
               flex-direction: column;
             }

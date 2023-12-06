@@ -15,28 +15,17 @@ const GalleryCard3 = (props) => {
       <style jsx>
         {`
           .gallery-card3-gallery-card {
-            width: 208px;
-            height: 208px;
+            width: 100%;
+            max-width: 208px;
           }
           .gallery-card3-image {
-            width: 208px;
-            height: 208px;
+            width: 100%;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius8);
           }
           .gallery-card3-root-class-name {
             height: auto;
           }
-          .gallery-card3-root-class-name9 {
-            height: auto;
-          }
-          .gallery-card3-root-class-name10 {
-            height: auto;
-          }
-          .gallery-card3-root-class-name11 {
-            height: auto;
-          }
-
           .gallery-card3-root-class-name1 {
             height: auto;
           }
@@ -61,6 +50,16 @@ const GalleryCard3 = (props) => {
           .gallery-card3-root-class-name8 {
             height: auto;
           }
+          .gallery-card3-root-class-name9 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name10 {
+            height: auto;
+          }
+          .gallery-card3-root-class-name11 {
+            height: auto;
+          }
+
           .gallery-card3-root-class-name24 {
             height: auto;
           }
@@ -85,6 +84,11 @@ const GalleryCard3 = (props) => {
           .gallery-card3-root-class-name31 {
             height: auto;
           }
+          @media (max-width: 479px) {
+            .gallery-card3-gallery-card {
+              max-width: 100%;
+            }
+          }
         `}
       </style>
     </>
@@ -95,7 +99,7 @@ GalleryCard3.defaultProps = {
   rootClassName: '',
   image_alt: 'image',
   image_src:
-    'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&w=300',
+    'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&w=1500',
 }
 
 GalleryCard3.propTypes = {
